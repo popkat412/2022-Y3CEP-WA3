@@ -1,27 +1,40 @@
 # General description of project
-> E.g. Building an inventory tracking system for my CCA
+Building a points system for RICP (Raffles Institution Competitive Programming)
 
-#Goals of project
-> E.g. Streamline tracking and cataloguing of inventory to facilitate member loans, repairs & Semester stock-taking needs
+# Goals of project
+In order to encourage more active participation during training, as well as
+to do the practice problems after training.
 
 # Listing of features
-> List all the features in the fully functional app - you may choose to work on a subset of this listing to produce a MVP (minimum viable product) given constraint of time
+
+- Points leaderboard
+- Ability for admins to add and subtract points with reasons
+- View the point history of each member
+- (?) Group points (tbh not very sure how exactly this will work at the moment)
+- (?) Automatically add points when members solve a problem using some sort of API
+  to communicate with the online judge
 
 # External Scanning
-> Are there similar apps / codebase that you found online that is similar to your project?  Provide link(s) to these projects and outline how will your project be different?
+
+I guess just using Excel/Google sheets works, but its not particularly elegant.
+I also just want an excuse to code something.
+
+This might also be similar to Class Dojo but that's kind of childish and 
+also if I'm not wrong there is no way to have custom messages when adding or subtracting points,
+and the amount of points that you can subtract is also limited to a few choices.
+
+There are also a few points bots for Discord, but again I don't think they support
+custom messages, nor viewing the point history of a particular person.
 
 # Listing of Key Use Cases
-> Yearly, CCA senior will do stock-take and will need to generate a report on the existing stock.
-> Start of school break, members will loan equipment and will need to return when school break ends.
+
+- When people answer questions during training, we give them points
+- When people do the practice problems, we give them points
+- When people troll and fool around during, we subtract points
+- At the end of the month of something we give out prizes based on the points
 
 # Skills that my project requires me to pick up
-> List out the skills that you are not familiar with that is necessary due to the project scope.
+
+- having a database to store the stuff in, probably gonna use Firebase firestore
 
 # [Development Log](/devlog.md)
-> You will be updating this section regularly
-> - Week 5
-> - Week 6
-> - Week 7
-> - Week 8
-> - Week 9
-> - Week 10
